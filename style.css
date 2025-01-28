@@ -1,0 +1,25 @@
+html {
+    background-color: lightblue;
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
+
+.content {
+    margin-left: 270px; 
+    padding: 20px;
+}
+
+.div {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
