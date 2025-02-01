@@ -1,7 +1,23 @@
-html {
-    background-color: lightblue;
+ /* Center boby */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
+body {
+    background-color: rgb(147, 168, 175);
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+   
+}
+
+
+/* START SIDEBAR*/
 .sidebar {
     background-color: #333;
     color: white;
@@ -11,15 +27,36 @@ html {
     position: fixed;
 }
 
-.content {
-    margin-left: 270px; 
-    padding: 20px;
+.content h3 {
+    margin-top: 40px; /* Ρύθμισε το μέγεθος όπως θέλεις */
+}
+.sidebar h1 {
+    color: #06b99269;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    margin-bottom: 50px; 
 }
 
-.div {
-    width: 320px;
-    height: 50px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
+.sidebar h2 {
+    color: #31af5b2d;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
 }
+
+.sidebar p {
+    color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+}
+
+.sidebar h3 {
+    color: #00ccff;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+}
+
+/* END SIDEBAR*/
+
+
+
+
+
